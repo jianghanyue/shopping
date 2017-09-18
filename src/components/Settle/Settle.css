@@ -1,0 +1,83 @@
+.settle{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.settle>span{
+  display: block;
+  background:linear-gradient(to bottom right, #ff9e80 , #f50057 );
+  width: 400px;
+  line-height: 250px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 70px;
+  margin-bottom: 400px;
+  color: #fff;
+  font-size: 32px;
+}
+.settle ul{
+  width: 300px;
+  height: 330px;
+  background-color: #fff;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.settle li{
+  list-style: none;
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc
+}
+.settle li .tupian{
+  width: 60px;
+  height: 60px;
+  background-color: pink;
+  background-size: 75px;
+  background-position: center;
+}
+.settle li .jia{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.settle li .jia span:nth-child(1){
+  font-size: 20px;
+  line-height: 35px;
+  color: #f50057;
+}
+.settle li .jia span:nth-child(2){
+  font-size: 14px;
+  color: #777;
+}
+.shuliang{
+  display: flex;
+}
+.j{
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 30px;
+  color: #777;
+}
+.j:nth-child(1){
+  font-size: 40px;
+  line-height: 54px
+}
+.shuliang span{
+  margin: 8px;
+  margin-top: 15px;
+  line-height: 28px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background:linear-gradient(to bottom right, #ff9e80 , #f50057 );
+  font-size: 14px;
+  color: #fff;
+}
